@@ -14,7 +14,7 @@ public class SystemInfoListActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_system_info_list);
+        setContentView(android.R.layout.simple_list_item_1);
 
         items = new String[] {
                 getResources().getString(R.string.itemDeviceConfigInfo),
