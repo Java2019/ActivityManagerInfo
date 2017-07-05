@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Activity Manager Info</string>
+    <string name="app_name">
+        Activity Manager Info</string>
+    <string name="itemDeviceConfigInfo">
+        Device Configuration Info</string>
+    <string name="itemMemoryInfo">
+        Memory Info</string>
+    <string name="itemRecentTasks">
+        Recent Tasks</string>
+    <string name="itemRunningAppProcesses">
+        Running Processes</string>
+    <string name="itemProcessesInErrorState">
+        Processes in Error State</string>
+    <string name="itemRunningServices">
+        Running Services</string>
+    <string name="itemRunningTasks">
+        Running Tasks</string>
 </resources>
