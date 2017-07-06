@@ -12,7 +12,6 @@ public class SystemInfoListActivity extends ListActivity {
     private String[] items;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +36,8 @@ public class SystemInfoListActivity extends ListActivity {
         Intent intent = new Intent(getApplicationContext(),
                 SystemInfoItemActivity.class);
         intent.setAction(item);
+
         startActivity(intent);
+
     }
 }
