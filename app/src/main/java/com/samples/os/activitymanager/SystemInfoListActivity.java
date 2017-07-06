@@ -32,7 +32,9 @@ public class SystemInfoListActivity extends ListActivity {
     @Override
     protected void onListItemClick(
             ListView parent, View v, int position, long id) {
+
         String item = items[position];
+
         Intent intent = new Intent(getApplicationContext(),
                 SystemInfoItemActivity.class);
         intent.setAction(item);
