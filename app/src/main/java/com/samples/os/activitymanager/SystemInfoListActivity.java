@@ -26,6 +26,7 @@ public class SystemInfoListActivity extends ListActivity {
                 getResources().getString(R.string.itemRecentTasks),
                 getResources().getString(R.string.itemProcessesInErrorState)
         };
+
         setListAdapter(new ArrayAdapter<String>(getApplicationContext(),
                 android.R.layout.simple_list_item_1, items));
     }
