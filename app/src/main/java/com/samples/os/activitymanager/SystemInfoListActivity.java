@@ -29,6 +29,7 @@ public class SystemInfoListActivity extends ListActivity {
 
         setListAdapter(new ArrayAdapter<String>(getApplicationContext(),
                 android.R.layout.simple_list_item_1, items));
+
     }
     @Override
     protected void onListItemClick(
